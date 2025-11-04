@@ -1,0 +1,49 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of `go build`
+*.out
+
+# Build directories
+bin/
+build/
+dist/
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Test binary, coverage reports
+*.cover
+*.log
+*.tmp
+*.prof
+coverage.out
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Go modules cache (should NOT normally be committed)
+# Uncomment only if you want to force ignore all modules
+# go.sum
+
