@@ -1,0 +1,8 @@
+#!/bin/bash
+
+docker build -t go-static-builder .
+docker create --name temp go-static-builder
+docker cp temp:/app ./app
+docker rm temp
+mv ./app http-server
+chmod +x http-server
